@@ -309,8 +309,8 @@ for inFile in args.i:
 
 b_efficiency_v_purity_ax.legend(fontsize=12, loc=3)
 c_efficiency_v_purity_ax.legend(fontsize=12, loc=3)
-b_efficiency_v_purity_fig.savefig("report/b_pure_eff_threshold_with_theta_cuts.pdf", bbox_inches="tight",orientation='landscape')
-c_efficiency_v_purity_fig.savefig("report/c_pure_eff_threshold_with_theta_cuts.pdf", bbox_inches="tight",orientation='landscape')
-#plt.show()
+#b_efficiency_v_purity_fig.savefig("report/b_pure_eff_threshold_with_theta_cuts.pdf", bbox_inches="tight",orientation='landscape')
+#c_efficiency_v_purity_fig.savefig("report/c_pure_eff_threshold_with_theta_cuts.pdf", bbox_inches="tight",orientation='landscape')
+plt.show()
 
 

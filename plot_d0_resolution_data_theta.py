@@ -99,6 +99,6 @@ for inFile in args.i:
 
 main_ax.legend()
 
-main_fig.savefig("report/d0_resolution_theta.pdf", bbox_inches="tight",orientation='landscape')
+#main_fig.savefig("report/d0_resolution_theta.pdf", bbox_inches="tight",orientation='landscape')
 
-#plt.show()
+plt.show()
