@@ -41,7 +41,7 @@ This is so you can compare the endcap performance with the barrel.
 
 ```
 
-If the data in the files is the output of the second stage of scripts/pylcio/pylcioPrintTrackParamResolutionTheta.py then you'll get a plot showing the d0 resolution as a function of theta and a sample of the subplots used to get this one.
+If the data in the files is the output of the second stage of scripts/pylcio/pylcioPrintTrackParamResolutionTheta.py then you'll get a plot showing the d0 resolution as a function of theta and a sample of the subplots used to generate the main one.
 
 Note that the python pickle module eval()s things so running this script on arbitrary data could cause bad stuff to happen.
 
